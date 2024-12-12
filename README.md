@@ -26,12 +26,12 @@
 
 ###
 
-<img align="right" height="250" src="https://raw.githubusercontent.com/atul-maurya-30/atul-maurya-30/refs/heads/main/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a473853574149555%20(1).gif"  />
+<img align="right" height="330" src="https://raw.githubusercontent.com/atul-maurya-30/atul-maurya-30/refs/heads/main/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a473853574149555%20(1).gif"  />
 
 ###
 
 <div align="left">
-  <img src="https://streak-stats.demolab.com?user=atul-maurya-30&theme=dark&hide_border=true" alt="Streak Graph" />
+  <img src="https://streak-stats.demolab.com?user=atul-maurya-30&theme=dark&hide_border=true"height="150" alt="Streak Graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=atul-maurya-30&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="166" alt="languages graph"  />
 </div>
 
