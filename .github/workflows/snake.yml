@@ -22,7 +22,7 @@ jobs:
       - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: atul-maurya-30
           outputs: dist/snake.svg  # Removed query string
 
       - name: List generated files
