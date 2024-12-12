@@ -24,6 +24,7 @@ jobs:
         with:
           github_user_name: atul-maurya-30
           outputs: dist/snake.svg  # Removed query string
+          palette: github-dark
 
       - name: List generated files
         run: ls -R dist
