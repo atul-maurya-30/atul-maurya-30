@@ -31,7 +31,7 @@
 ###
 
 <div align="left">
-  <img src="https://streak-stats.demolab.com?user=atul-maurya-30&locale=en&mode=weekly&theme=dracula&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=atul-maurya-30&theme=dark&hide_border=true" alt="Streak Graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=atul-maurya-30&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="166" alt="languages graph"  />
 </div>
 
