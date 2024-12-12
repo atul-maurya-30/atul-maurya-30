@@ -1,78 +1,67 @@
-# 👋 Hi, I'm Atul Maurya
+<h3 align="center">Hey there 👋! I'm Atul Maurya, a B.Tech Information Technology student with a passion for coding, Data Science, and Machine Learning. I love turning complex problems into solutions through programming. Take a look at my projects, and feel free to reach out – let's build something amazing together! 🚀</h3>
 
-Welcome to my GitHub! I'm a **B.Tech Information Technology student** with a passion for **Machine Learning**, **Data Science**, **Power BI**, and **coding**. I have a strong focus on **data analysis** and enjoy leveraging creative tools like **Canva**, **MS Word**, and **MS PowerPoint** to present and communicate my findings. 
+###
 
-I bring a **hands-on approach** to problem-solving, with a commitment to developing innovative and practical solutions. I'm constantly learning and looking for new challenges to improve my technical skills and contribute to meaningful projects.
+<br clear="both">
 
----
+<div align="center">
+  <img src="https://cdn.simpleicons.org/python/3776AB" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/kaggle/20BEFF" height="40" alt="kaggle logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-line.svg" height="40" alt="matlab logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
+</div>
 
-## 🛠️ **Technologies & Tools**
+###
 
-- **Languages**: Python, C, SQL
-- **Machine Learning**: Scikit-learn, Pandas, Matplotlib, Seaborn
-- **Web Development**: Flask
-- **Data Visualization**: Power BI, Matplotlib
-- **Tools & Frameworks**: VS Code, Git, Jupyter Notebooks
-- **Creative Tools**: Canva, MS Word, MS PowerPoint
+<img align="right" height="200" src="https://raw.githubusercontent.com/atul-maurya-30/atul-maurya-30/refs/heads/main/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a473853574149555%20(1).gif"  />
 
----
+###
 
-## 📈 **GitHub Stats**
+<div align="left">
+  <img src="https://streak-stats.demolab.com?user=atul-maurya-30&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=atul-maurya-30&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="166" alt="languages graph"  />
+</div>
 
-![Atul Maurya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=atul-maurya-30&show_icons=true&hide_title=true&count_private=true&hide=prs)
+###
 
----
+<br clear="both">
 
-## 💼 **Featured Projects**
+<img src="https://raw.githubusercontent.com/atul-maurya-30/atul-maurya-30/output/snake.svg" alt="Snake animation" />
 
-### **Galaxy Classifier**  
-**Technologies**: Flask, Python, Machine Learning, Scikit-learn  
-- **Description**: A web application that classifies galaxies into **STARFORMING** and **STARBURST** categories based on photometric data.
-- **Achievements**: Achieved **82.5% accuracy** by optimizing machine learning models.
-- **Live Demo**: [Galaxy Classifier](https://galaxy-classifier.onrender.com/)
-- **Repository**: [View on GitHub](https://github.com/atul-maurya-30/galaxy)
+###
 
-### **Interactive Dashboards with Power BI**  
-**Technologies**: Power BI, Python  
-- **Description**: Developed **10+ interactive dashboards** that visualize trends and provide insights for business decision-making.
-- **Repository**: [View Dashboards](#) (Provide link to GitHub repository if available)
+<br clear="both">
 
----
+<div align="center">
+  <a href="https://www.youtube.com/@kashi_ff__" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+  </a>
+  <a href="atulsrnvm9235@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  <a href="https://x.com/atul_maurya_30" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+  </a>
+</div>
 
-## 🎓 **Certifications**
+###
 
-- **Machine Learning Engineer Internship** | SmartInternz | August 2024
-- **Tata Data Visualization** | Forage | July 2024
-- **Supervised Machine Learning** | Stanford University (Coursera) | March 2024
+<div align="center">
+  <img src="https://profile-counter.glitch.me/atul-maurya-30/count.svg?"  />
+</div>
 
----
-
-## 🌱 **Current Focus**
-- **Learning**: Exploring **Deep Learning** and **AI in Cloud Computing**.
-- **Next Steps**: Building scalable machine learning models and contributing to open-source projects.
-
----
-
-## 📬 **Let’s Connect!**
-
-- **Email**: [atulsrnvm9235@gmail.com](mailto:atulsrnvm9235@gmail.com)
-- **LinkedIn**: [linkedin.com/in/atul-maurya](https://linkedin.com/in/atul-maurya)
-- **GitHub**: [github.com/atul-maurya-30](https://github.com/atul-maurya-30)
-- **LeetCode**: [leetcode.com/u/atulsrnvm9235](https://leetcode.com/u/atulsrnvm9235/)
-- **CodeChef**: [codechef.com/users/atul_3010](https://www.codechef.com/users/atul_3010)
-- **GeeksforGeeks**: [geeksforgeeks.org/user/atulsrnvm9235](https://www.geeksforgeeks.org/user/atulsrnvm9235/)
-- **X.com**: [x.com/atul_maurya_30](https://x.com/atul_maurya_30)
-
----
-
-## 🏆 **Achievements**
-- **Ranked 251** globally in **CodeChef Starters 162(Rated)** contest.
-- **Achieved Top 25%** in Python Test on TestDome.
-- **Gold League** in Google Cloud Skills Boost, with multiple certifications in **Responsible AI** and **Generative AI**.
-- Created over **10+ interactive dashboards** using Power BI for data analysis.
-
----
-
-## 🎯 **Let’s Build Together!**
-
-I’m always open to collaborating on exciting projects, contributing to open-source, and learning from others. Feel free to reach out if you have any questions or opportunities!
+###
