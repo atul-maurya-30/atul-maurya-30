@@ -52,7 +52,7 @@
   <a href="mailto:atulsrnvm9235@gmail.com" target="_blank">
     <img src="https://github.com/atul-maurya-30/atul-maurya-30/blob/main/email.png" height="35"/>
   </a>&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/atul-maurya-30" target="_blank">
+  <a href="https://www.linkedin.com/in/atul--maurya/" target="_blank">
     <img src="https://github.com/atul-maurya-30/atul-maurya-30/blob/main/linkedin.png" height="35"/>
   </a>&nbsp;&nbsp;&nbsp;
   <a href="https://x.com/atul_maurya_30" target="_blank">
