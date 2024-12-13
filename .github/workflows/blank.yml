@@ -43,6 +43,7 @@ jobs:
             git commit -m "Update snake animation" || echo "No changes to commit"
           else
             echo "No dist directory, skipping commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
