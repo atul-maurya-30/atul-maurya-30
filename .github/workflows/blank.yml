@@ -2,53 +2,43 @@ name: Generate Snake
 
 on:
   schedule:
-    # This runs every 6 hours
     - cron: "0 */6 * * *"
-
-  # Allows the workflow to be manually triggered
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
-    # Steps that will be executed for the build job
     steps:
-      # Checkout the repository to the runner
+      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Generate the snake animations
+      # Step 2: Generate Snake Animations
       - name: Generate GitHub Contributions Snake
         uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: atul-maurya-30
+          # Define output files
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Check the git status for debugging
-      - name: Show Git Status
+      # Step 3: Check if 'dist' directory and files exist
+      - name: List files in dist directory
         run: |
-          git status
-          git log -n 1
-          ls -al dist
+          echo "Listing files in the dist directory:"
+          ls -l dist || echo "dist directory does not exist"
 
-      # Check the output of the generated files
-      - name: List generated files
-        run: |
-          echo "Generated files in dist:"
-          ls -l dist/
-
-      # Commit and push the generated files to the repository
+      # Step 4: Commit the generated files if they exist
       - name: Commit changes
         run: |
           git add dist/
-          git commit -m "Update snake animation"
+          git commit -m "Update snake animation" || echo "No changes to commit"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Push changes to the repository
+      # Step 5: Push changes to the repository
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
@@ -56,7 +46,7 @@ jobs:
           branch: main
           force: true
 
-      # Deploy the generated files to GitHub Pages
+      # Step 6: Deploy to GitHub Pages (optional)
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
