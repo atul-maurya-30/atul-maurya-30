@@ -25,16 +25,24 @@ jobs:
           svg_out_path: dist/github-contribution-grid-snake.svg
 
       # Step 3: Check if 'dist' directory and files exist
-      - name: List files in dist directory
+      - name: Check dist directory
         run: |
-          echo "Listing files in the dist directory:"
-          ls -l dist || echo "dist directory does not exist"
+          echo "Checking if 'dist' directory exists..."
+          if [ -d "dist" ]; then
+            echo "dist directory exists, listing contents:"
+            ls -l dist
+          else
+            echo "dist directory does not exist"
+          fi
 
       # Step 4: Commit the generated files if they exist
       - name: Commit changes
         run: |
-          git add dist/
-          git commit -m "Update snake animation" || echo "No changes to commit"
+          if [ -d "dist" ]; then
+            git add dist/
+            git commit -m "Update snake animation" || echo "No changes to commit"
+          else
+            echo "No dist directory, skipping commit."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
