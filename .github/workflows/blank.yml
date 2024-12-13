@@ -1,58 +1,31 @@
-name: Generate Snake
+name: Generate snake animation
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
   workflow_dispatch:
+
+  push:
+    branches:
+    - master
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
     permissions:
-      contents: write  # Allow write access to repository contents
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      # Checkout the repository
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      # Generate the Snake Animations
-      - name: Generate GitHub Contributions Snake
-        uses: Platane/snk@v3
-        id: snake-gif
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: atul-maurya-30
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg?palette=github-dark
 
-      # Debug: List contents of the repository to verify 'dist' folder exists
-      - name: List directory contents
-        run: |
-          ls -l
-          ls -l dist || echo "dist directory does not exist"
 
-      # Commit changes if 'dist' exists
-      - name: Commit changes
-        run: |
-          if [ -d "dist" ]; then
-            git add dist/
-            git commit -m "Update snake animation" || echo "No changes to commit"
-          else
-            echo "No dist directory, skipping commit."
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Push changes
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
-
-      # Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
+      - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
