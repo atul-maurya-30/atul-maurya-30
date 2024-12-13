@@ -8,34 +8,33 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow write access to repository contents
 
     steps:
-      # Step 1: Checkout the repository
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Step 2: Generate Snake Animations
+      # Generate the Snake Animations
       - name: Generate GitHub Contributions Snake
         uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: atul-maurya-30
-          # Define output files
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Step 3: Check if 'dist' directory and files exist
+      # Check if 'dist' directory exists
       - name: Check dist directory
         run: |
-          echo "Checking if 'dist' directory exists..."
           if [ -d "dist" ]; then
-            echo "dist directory exists, listing contents:"
             ls -l dist
           else
             echo "dist directory does not exist"
           fi
 
-      # Step 4: Commit the generated files if they exist
+      # Commit changes if 'dist' exists
       - name: Commit changes
         run: |
           if [ -d "dist" ]; then
@@ -47,7 +46,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 5: Push changes to the repository
+      # Push changes
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
@@ -55,7 +54,7 @@ jobs:
           branch: main
           force: true
 
-      # Step 6: Deploy to GitHub Pages (optional)
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
