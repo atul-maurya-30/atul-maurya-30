@@ -19,16 +19,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake.svg with transparent grid
+      - name: Generate snake.svg with black background, black grid, and white snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: atul-maurya-30
-          outputs: dist/snake-transparent-grid.svg
+          outputs: dist/snake-black-bg-white-snake.svg
           color_snake: "#ffffff"  # White snake
           color_dots_1: "#0f0"    # Light green for less active days
           color_dots_2: "#00a000" # Medium green for moderate activity
           color_dots_3: "#006400" # Dark green for highly active days
-          color_grid: "transparent"  # Transparent grid for both dark and light mode
+          color_grid: "#000000"   # Black grid
+          background_color: "#000000"  # Black background
 
       - name: Debug file creation
         run: |
