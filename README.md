@@ -1,4 +1,11 @@
-<h3 align="center">Hey there 👋! I'm Atul Maurya, a B.Tech Information Technology student with a passion for coding, Data Science, and Machine Learning. I love turning complex problems into solutions through programming. Take a look at my projects, and feel free to reach out – let's build something amazing together! 🚀</h3>
+<div align="left">
+  <h3>Hey there 👋! I'm Atul Maurya, a B.Tech Information Technology student with a passion for coding, Data Science, and Machine Learning. I love turning complex problems into solutions through programming. Take a look at my projects, and feel free to reach out – let's build something amazing together! 🚀</h3>
+</div>
+
+<div align="right">
+  <img height="330" src="https://raw.githubusercontent.com/atul-maurya-30/atul-maurya-30/refs/heads/main/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a473853574149555%20(1).gif" alt="Gif Image"/>
+</div>
+
 
 ###
 
@@ -25,13 +32,10 @@
 </div>
 
 ###
-
-<img align="right" height="330" src="https://raw.githubusercontent.com/atul-maurya-30/atul-maurya-30/refs/heads/main/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a473853574149555%20(1).gif"  />
-
-###
-
-<div align="left">
+<div align="center">
   <img src="https://streak-stats.demolab.com?user=atul-maurya-30&theme=dark&hide_border=true"height="150" alt="Streak Graph" />
+</div>
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=atul-maurya-30&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="166" alt="languages graph"  />
 </div>
 
