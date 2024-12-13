@@ -25,14 +25,11 @@ jobs:
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Check if 'dist' directory exists
-      - name: Check dist directory
+      # Debug: List contents of the repository to verify 'dist' folder exists
+      - name: List directory contents
         run: |
-          if [ -d "dist" ]; then
-            ls -l dist
-          else
-            echo "dist directory does not exist"
-          fi
+          ls -l
+          ls -l dist || echo "dist directory does not exist"
 
       # Commit changes if 'dist' exists
       - name: Commit changes
