@@ -70,7 +70,7 @@ B.Tech Information Technology student with strong analytical skills and the abil
 
 <br clear="both">
 <div align="center">
-<img src="https://github.com/atul-maurya-30/atul-maurya-30/blob/output/snake-dark.svg" alt="Snake animation" />
+<img src="https://github.com/atul-maurya-30/atul-maurya-30/blob/output/snake-transparent-grid.svg" alt="Snake animation" />
 </div>
 
 ###
