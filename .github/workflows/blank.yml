@@ -29,7 +29,24 @@ jobs:
 
       # Check the git status for debugging
       - name: Show Git Status
-        run: git status
+        run: |
+          git status
+          git log -n 1
+          ls -al dist
+
+      # Check the output of the generated files
+      - name: List generated files
+        run: |
+          echo "Generated files in dist:"
+          ls -l dist/
+
+      # Commit and push the generated files to the repository
+      - name: Commit changes
+        run: |
+          git add dist/
+          git commit -m "Update snake animation"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Push changes to the repository
       - name: Push changes
