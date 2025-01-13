@@ -18,7 +18,7 @@ B.Tech Information Technology student with strong analytical skills and the abil
 
 <h5 align="center">My Coding Profiles</h5>
 <p align="center" style="background-color: black; padding: 10px;">
-  <a href="https://leetcode.com/u/atulsrnvm9235/">
+  <a href="https://leetcode.com/u/atul--maurya/">
     <picture>
       <img src="https://github.com/atul-maurya-30/atul-maurya-30/blob/main/LeetCode_Logo_1.png" width="40" height="40" alt="LeetCode logo" style="margin: 0; padding: 0; border: 0;"/>
     </picture>
