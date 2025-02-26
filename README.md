@@ -42,9 +42,7 @@ B.Tech Information Technology student with strong analytical skills and the abil
   <img src="https://profile-counter.glitch.me/atul-maurya-30/count.svg?"  /></div>
   <div align="left"><br>
 <div align="center" style="display: flex; flex-direction: column; align-items: center;">
-  <!-- Streak Graph -->
-  <img src="https://streak-stats.demolab.com?user=atul-maurya-30&theme=dark&hide_border=true" height="150" alt="Streak Graph" />
-
+  
   <!-- Top Languages -->
   <a href="https://github.com/atul-maurya-30" style="display: flex; justify-content: center; align-items: center; text-align: center;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atul-maurya-30&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" height="150" />
